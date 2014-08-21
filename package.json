@@ -10,7 +10,7 @@
     "node": "0.10.x"
   },
   "scripts": {
-    "start": "source .keys; NODE_ENV=development nodemon server.js",
+    "start": "source .keys; ./scripts/add_user; NODE_ENV=development nodemon server.js",
     "test": "make test"
   },
   "dependencies": {
