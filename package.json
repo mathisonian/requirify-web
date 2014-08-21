@@ -1,0 +1,34 @@
+{
+  "name": "requirify-web",
+  "description": "web server for requirify modules",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matthew Conlen",
+    "email": "code@mathisonian.com"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "source .keys; NODE_ENV=development nodemon server.js",
+    "test": "make test"
+  },
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "compression": "^1.0.8",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^0.4.1",
+    "connect-slashes": "^1.2.0",
+    "cookie-parser": "^1.3.2",
+    "cors": "^2.4.1",
+    "express": "^4.6.1",
+    "express-session": "^1.6.5",
+    "lodash": "^2.4.1",
+    "method-override": "^2.1.3",
+    "request": "^2.40.0",
+    "serve-static": "^1.5.3",
+    "swig": "^1.4.2",
+    "view-helpers": "^0.1.5",
+    "winston": "^0.7.3"
+  }
+}
