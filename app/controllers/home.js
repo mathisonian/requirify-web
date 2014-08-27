@@ -7,7 +7,6 @@ var request = require('request');
 
 
 exports.index = function (req, res) {
-    console.log("gettting");
 
     var moduleName = req.params.modulename;
     var varName = req.params.varname;
